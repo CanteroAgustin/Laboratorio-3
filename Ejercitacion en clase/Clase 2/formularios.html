@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/estilosGeneral.css">
+    <title>Formularios</title>
+</head>
+<body>
+<h1 class="titulo">Formulario</h1>
+    <form class="formLogin" id="miForm" action="index.html" method="POST">
+        <fieldset id="field" style="width:300px">
+            <legend>Login</legend>
+            <label for="nombre">Nombre:</label>
+            <input placeholder="Ingrese nombre" type="text" name="nombre" id="nombre"/>
+            </br><br>
+            <input checked type="radio" name="Genero" id="Masculino" value="m"/>
+            <label for="Masculino">Masculino</label>
+            
+            <br>
+            <input type="radio" name="Genero" id="Femenino" value="f"/>
+            <label for="Femenino">Femenino</label>
+            <br><br>
+            <select name="combo" id="combo">
+                <optgroup label="grupo1" >
+                    <option selected="true" disabled="disabled">seleccione</option>
+                    <option value="1">value 1 </optio>
+                    <option value="2">value 1 </optio>
+                    <option value="3">value 1 </optio>
+                </optgroup>
+            </select>
+            <br><br>
+            <input list="marcas"/>
+            <datalist id="marcas">
+                <option value="Renault">
+                <option value="Ford">
+            </datalist>
+            <br><br>
+            <label >Intereses:</label>
+            <br>
+            <input type="checkbox" id="interes" value="1" checked> informatica
+            <input type="checkbox" id="interes" value="2" > arte
+            <br>
+            <input type="checkbox" id="interes" value="3" > musica
+            <input type="checkbox" id="interes" value="4" > otro interes
+            <br>
+            <br>
+            <input type="text" pattern="[A-Za-z]{3}"/>
+            <br><br>
+            <button type="reset">Limpiar</button>
+            <button type="submit">Enviar</button>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
