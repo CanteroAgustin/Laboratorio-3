@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registre su usuario y vehiculo</h1>
+    <h1>Por favor llene los siguientes campos con sus informacion:</h1>
+    <form class="formLogin" id="login" action="segundaPagina.html" method="POST">
+        <fieldset>
+            <legend>Datos de la cuenta:</legend>
+            <input name="email" id="email" type="email" placeholder="someone@example.com" required>
+            <label for="email">Email (requerido)</label>
+        </br>
+            <input type="password" id="password" name="password" placeholder="Clave de 8 caracteres" required>
+            <label for="password">Contraseña (requerido)</label>    
+        </fieldset>
+        <fieldset>
+            <legend>Datos personales:</legend>
+            <input name="nombre" id="nombre" type="text" placeholder="Nombre y apellido" required>
+            <label for="nombre">Nombre completo (requerido)</label>
+            </br>
+            <input type="number" placeholder="+54 011 42445678" id="telefono" name="telefono">
+            <label for="telefono">Tel&eacutefono</label>
+            </br>
+            <input type="text" placeholder="Calle, numero, piso, depto." id="direccion" name="direccion">
+            <label for="direccion">Direcci&oacuten</label>
+            <br>
+            <input type="text" placeholder="Código de 3 letras, ej: ARG" id="pais" name="pais">
+            <label for="pais">Pa&iacutes</label>  
+            <br>
+            <input type="date" id="fecha" name="fecha">
+            <label for="fecha">Fecha de nacimiento (requerido)</label>
+            <br>
+            <input type="text" id="ocupacion" name="ocupacion">
+            <label for="ocupacion">&Aacuterea/ocupaci&oacuten</label>  
+        </fieldset>
+        <fieldset>
+            <legend>Datos del autom&oacutevil:</legend>
+            <select name="cmbMarca" id="cmbMarca">
+                    <optgroup label="cmbMarca" >
+                        <option value="1">Volvo</optio>
+                    </optgroup>
+                </select>
+            <label for="cmbMarca">Marca del autom&oacutevil</label>
+            <br>
+            <input type="text" id="patente" name="patente" placeholder="Patente en  formato AAA999" required>
+            <label for="patente">Patente (requerido)</label>
+            <br>
+            <label for="descripcionVehiculo">Descripci&oacuten del veh&iacuteculo.</label>
+            <br>
+            <textarea name="descripcionVehiculo" id="descripcionVehiculo" placeholder="Descripción del vehículo de hasta 30 caracteres"></textarea>
+        </fieldset>
+        <button type="submit">ENVIAR</button>
+    </form>
+</body>
+</html>
