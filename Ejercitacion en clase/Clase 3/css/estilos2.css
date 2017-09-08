@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h4 {color: deepskyblue}
+header {height: 65px}
+.logo {height: 50px; padding-left: 200px}
+nav {background-color:magenta; height: 35px}
+nav {padding-left: 230px}
+nav ul {list-style:none;}
+nav ul a{text-decoration: none; text-align: center; color:lightgray; font-weight: bold; padding:10px; line-height: 10px}
+nav ul li {color:#fff;  width: 10em; padding: 12px; height: 11px; float: left; list-style: none; font-size: 10px; display: block}
+nav ul li:hover{cursor:move; background-color: deepskyblue; height: 11px}
+nav li ul {position:absolute; display:none;}
+nav li {float:left; position:relative; width: 10em;}
+nav li:hover ul {display:block;  background-color: deepskyblue}
+section {padding-left: 200px; width: 550px; height: 700px;margin-top: 20px}
+section img {width: 200px; padding: 10px 15px 15px 0px; float: left}
+section p {font-size: 12px; text-align: justify; padding-top: 15px}
+section button {margin: 10px 10px 10px 0px; text-align: center; height: 25px; width: 100px; border: none; background-color: deepskyblue}
+section button a {text-decoration: none; color: white; font-size: 11px; font-weight: bold;}
+aside  {float: right; width: 490px; height: 700px; margin-top: 16px;}
+aside ul {list-style: none;padding: 10px; }
+aside a {font-size: 12p; text-decoration: none; font-size: 10px; color: deepskyblue; height: 20px}
+aside ul li:hover {cursor: move;  background-color: deepskyblue; width: 50px; height: 20px; color: #fff}
+footer {background: magenta; color: white; height: 200px; width: 1263px}
+footer p {font-size: 10px;}
+footer ul {list-style:none; display: inline;  background-color: deepskyblue}
+footer ul a{text-decoration: none; text-align: center; color:lightgray; font-weight: bold; }
+footer ul li {width: 40px; ; padding: 10px; float: left; list-style: none; font-size: 10px; display: block}
+footer ul li:hover{cursor:move; background-color: deepskyblue; height: 11px}
+footer li ul {position:absolute; display:none;}
+footer li {position:relative; width: 10em;}
+footer li:hover ul {display:block; background: none}
+#listaFooter {float: right; width:330px;margin-right: 200px; margin-top: 30px}
+#nosotros {padding-left: 200px;padding-top: 20px; width: 450px; float: left}
+#nosotros p {padding-right: 200px}
+h5 {padding-top: 5px; padding-bottom: 10px}
+#copyright {padding-left: 530px; padding-top: 170px}

@@ -1,0 +1,23 @@
+a {text-decoration: none}
+h2 {color: deepskyblue; font-size: 16px}
+main {margin-left: 190px; width: 45%;float: left}
+aside {float: right; margin-right: 30%}
+aside ul {list-style: none;}
+aside a {font-size: 12px; color: deepskyblue}
+footer {margin-top:80%;  background-color:  #F704A9}
+footer p {color: white}
+.img {height: 120px; width: 200px}
+.logo {margin-left: 100px; height: 60px}
+.button {text-align: center; height: 25px; width: 100px; border: none; background-color: deepskyblue}
+.button a {color: white; font-size: 11px; font-weight: bold;}
+.nav {padding-left: 180px}
+.nav { background-color:  #F704A9; text-align: center; height: 40px}
+.nav ul {list-style:none; background:#F704A9; text-align: center;}
+.nav ul a{text-align: center; color: white; padding:10px;}
+.nav ul li {width: 10em;position:relative; padding: 12px; height: 16px; float: left; list-style: none; font-size: 10px; display: block}
+.nav ul li:hover{cursor:move; background-color: deepskyblue;}
+.nav li ul {position:absolute; display:none;}
+.nav li {float:left; position:relative; width: 10em;}
+.nav li:hover ul {display:block; background: none}
+#articulo img{float: left; padding-right: 20px; padding-bottom: 7px;}
+p {text-align: justify}
