@@ -1,0 +1,7 @@
+#contenedor {width: 300px; height: 100px; padding: 20px; background-color: lightsteelblue}
+#apellido {margin-top: 5px; margin-bottom: 10px}
+#btnGuardar {width: 100px; height: 30px; background-color: darkblue; border: none; color: lightcyan}
+#btnGuardar:hover {background: darkgray; color: blue}
+table{border:red 1px double; border-collapse: separate}
+th {border-bottom: 2px solid red}
+td {width: 100px; height: 40px}
