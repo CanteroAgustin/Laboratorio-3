@@ -1,0 +1,8 @@
+#contenedor {width: 300px; height: 100px; padding: 20px; background-color: #D7E5E8}
+#apellido {margin-top: 5px; margin-bottom: 10px}
+#btnGuardar {width: 100px; height: 30px; background-color: #ECE2C9; border: none; }
+#btnGuardar:hover {background: #CDB9B0; color: blue}
+th {width: 200px; border-bottom: 3px solid; border-color:#C0C0C0; }
+td {width: 100px; height: 40px; border-top: 1px solid; border-color:#C0C0C0; text-align: center}
+.btn {background-color: #DED5CE; margin: 5px; width: 70px}
+.btn:hover {background-color: #E2F0DF; }
